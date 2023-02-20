@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 const main = async () => {
   const app = express();
-  await mongoose.connect("mongodb+srv://pnabhi209801:AbhinavPandey@cluster0.2qesril.mongodb.net/todolistDB");
+  await mongoose.connect("mongodb+srv://pnabhi209801:qrv82WpS9irRdJD1@cluster0.2qesril.mongodb.net/todolistDB");
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(express.static("public"));
   app.set("view engine", "ejs");
