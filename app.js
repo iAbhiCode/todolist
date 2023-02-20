@@ -20,7 +20,7 @@ const main = async () => {
     name: String,
     items: [itemsSchema],
   };
-
+// blablabla
   const Item = mongoose.model("Item", itemsSchema);
   const List = mongoose.model("List", listSchema);
 
